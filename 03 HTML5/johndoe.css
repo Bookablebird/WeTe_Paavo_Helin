@@ -1,0 +1,28 @@
+body{
+    font-family: "Courier New";
+    width: auto;
+}
+h1{
+
+}
+h2{
+
+}
+p{
+
+}
+article{
+    float: right;
+    width: 50%;
+}
+header{
+    float: left;
+    width: 50%;
+
+}
+footer{
+    float: left;
+    width: 50%;
+
+}
+

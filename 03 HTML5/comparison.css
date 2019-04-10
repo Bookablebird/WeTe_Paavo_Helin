@@ -1,0 +1,28 @@
+body{
+font-family: Verdana;
+    font-weight: 500;
+}
+caption{
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid;
+    border-bottom: 0px;
+
+}
+table{
+    border: 1px solid;
+}
+th{
+    font-weight: bold;
+    color: white;
+    background-color: red;
+
+}
+
+tr:nth-child(even) {
+    background: lightgray;
+}
+td:nth-child(1) {
+    border-right: 2px solid;
+    font-weight: bold;
+}
