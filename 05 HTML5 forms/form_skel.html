@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fin">
+	<!--
+	This page demonstrates a form.
+	-->
+	<head>
+		<link href="form.css" type="text/css" rel="stylesheet" />
+		<meta charset="utf-8"/>
+		<title>Demonstrating HTML forms</title>
+	</head>
+	
+	<body>
+		<h1>Turnitin</h1>
+		<form  lang="fi" action="">
+			<fieldset>
+				<legend>Name:</legend>
+				Name: <input type="text" name="studentname" placeholder="Esim. Matti Meikäläinen" pattern="\[a-öA-Ö]{15}\ \[a-öA-Ö]{15}"/>
+			</fieldset>
+				<fieldset>
+					<legend>Student id:</legend>
+				Student id: <input type="number" name="id"  placeholder="Esim. 1800693" pattern="\d{7}"/>
+				</fieldset>
+			<fieldset>
+				<legend>Email:</legend>
+				Email:<input type="email" name="email" placeholder="Esim. MattiMeikäläinen@metropolia.fi"/>
+				<!--
+				Make an input named "email"
+				-->
+			</fieldset>
+				<fieldset>
+					<legend>Assignment:</legend>
+					Assignment: <input type="text" name="assignment" placeholder="Esim. Web-tekniikat"/>
+				<!--
+				Make an input named "assignment"
+				-->
+
+				</fieldset>
+
+					<fieldset>
+						<legend>Code:</legend>
+						Code: <input type="password" name="code" placeholder="Esim. S4laSana"/>
+				<!--
+				Make an input named "code" which is a text area to put student's code into.
+				-->
+
+					</fieldset>
+						<fieldset>
+							<legend>Cheat:</legend>
+							<label>Cheat: <input type="checkbox" name="cheat"/></label>
+			<!--
+				Make an input named "cheat" which is a check box the student must check.
+			-->
+						</fieldset>
+							<fieldset>
+								<legend>Pay:</legend>
+								<label>Pay:<input type="radio" name="pay"/></label>
+			<!--
+				Make an input named "payment" which is a radio box with possible values of visa, paypal, mastercard
+			-->
+							</fieldset>
+								<fieldset>
+									<legend>Score:</legend>
+									Score:
+
+									<select name="example">
+										<option value="notknown">Not selected</option>
+										<option value="item1">Item 1</option>
+									</select>
+			<!--
+				Make an input named "score" which is a list of choices for the score 
+			-->
+								</fieldset>
+
+			<input type="submit" />
+		</form>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate</a>
+	</body>
+</html>

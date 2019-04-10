@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2 {
+    color: blue;
+    font-weight: bold;
+}
+p{
+    text-indent: 50px;
+
+}
+ul, ol {
+    margin-left: 50px;
+    margin-right: 70%;
+    border-style: groove;
+}
+li {
+    color: gray;
+}
+figcaption{
+    font-size: small;
+    font-weight: bold;
+}
+p.copyright_notice {
+    font-size: 0.8em;
+}
+#special {
+    font-size: 0.8em;
+    color: yellowgreen;
+    font-style: italic;
+    border-left: 2px solid black;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+#graybox{
+    margin-left: 5%;
+    width: 18%;
+    background-color: lightgray;
+}
+.basic{
+    line-height: 150%;
+    font-family: "Courier New";
+    font-size: small;
+}
+p::first-letter {
+    <!--font-size:8em;-->
+}
+
+p::first-line {
+    font-weight: bold;
+}
